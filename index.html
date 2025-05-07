@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Charity</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ----------------nav bar----------------- -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/website_images/logo (1).png" alt="logo" class="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 column-gap-4">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Causes</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ----------------hero section----------------- -->
+    <div
+      id="heroCarousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-wrap="true"
+    >
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div
+            class="hero-banner d-flex align-items-center"
+            style="background-image: url('/website_images/hero.jpg')"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7">
+                  <h1>Donate</h1>
+                  <h3>4 a better world</h3>
+                  <p class="my-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris tempus vestibulum mauris quis aliquam. Integer
+                    accumsan sodales odio, id tempus ullamcorper.
+                  </p>
+                  <div class="d-flex gap-3">
+                    <a href="#" class="btn btn-danger">Donate Now</a>
+                    <a href="#" class="btn btn-outline-light">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div
+            class="hero-banner d-flex align-items-center"
+            style="background-image: url('/website_images/hero.jpg')"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7">
+                  <h1>Give</h1>
+                  <h3>Hope to Children</h3>
+                  <p class="my-4">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                  <div class="d-flex gap-3">
+                    <a href="#" class="btn btn-danger">Donate Now</a>
+                    <a href="#" class="btn btn-outline-light">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bg-danger rounded-circle p-3"
+          aria-hidden="true"
+        ></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon bg-danger rounded-circle p-3"
+          aria-hidden="true"
+        ></span>
+      </button>
+    </div>
+
+    <!-- -----------------causes----------------------- -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4 justify-content-center text-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="highlight-card active">
+              <div class="icon mb-3">
+                <img
+                  src="/website_images/hands-gray.png"
+                  alt="volunteer icon"
+                  width="50"
+                />
+              </div>
+              <h5 class="fw-bold text-white">Become a Volunteer</h5>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                tempus vestibulum mauris quis aliquam.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="highlight-card">
+              <div class="icon mb-3">
+                <img
+                  src="/website_images/donation-gray.png"
+                  alt="music icon"
+                  width="50"
+                />
+              </div>
+              <h5 class="fw-bold">Dance & Music</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                tempus vestibulum mauris quis aliquam.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="highlight-card">
+              <div class="icon mb-3">
+                <img
+                  src="/website_images/charity-gray.png"
+                  alt="conference icon"
+                  width="50"
+                />
+              </div>
+              <h5 class="fw-bold">Online Conference</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                tempus vestibulum mauris quis aliquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------Welcome Section ------------->
+    <section class="welcome-section py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 text-white">
+            <h2 class="section-title">Wellcome to our Charity</h2>
+            <div class="section-underline mb-4"></div>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              tempus vestibulum mauris quis aliquam. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Mauris tempus vestibulum mauris quis
+              aliquam.
+            </p>
+            <p class="mb-4">
+              Integer accumsan sodales odio, id tempus velit ullamcorper id.
+              Quisque at erat eu libero consequat tempus. Quisque molestie
+              convallis tempus. Ut semper purus metus, a euismod sapien sodales
+              ac. Duis viverra eleifend fermentum.
+            </p>
+            <a href="#" class="btn btn-danger px-4 py-2 rounded-pill"
+              >Read More</a
+            >
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              src="/website_images/welcome.jpg"
+              alt="welcome"
+              class="img-fluid rounded-3 shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- Events Section------------------>
+    <section class="py-5 bg-white">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-6">
+            <h3 class="section-title">Upcoming Events</h3>
+            <div class="section-underline mb-4"></div>
+
+            <div class="d-flex mb-4">
+              <img
+                src="/website_images/event-1.jpg"
+                alt="event"
+                class="me-3 rounded"
+                width="100"
+              />
+              <div>
+                <h6 class="fw-bold">Fundraiser for Kids</h6>
+                <small class="text-muted"
+                  >Aug 25, 2018 | Ball Room New York</small
+                >
+                <p class="mb-1 text-muted small">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Mauris tempus vestib ulum mauris.
+                </p>
+                <a href="#" class="text-danger fw-semibold small">Read More</a>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <img
+                src="/website_images/event-2.jpg"
+                alt="event"
+                class="me-3 rounded"
+                width="100"
+              />
+              <div>
+                <h6 class="fw-bold">Bring water to the childrens</h6>
+                <small class="text-muted"
+                  >Aug 25, 2018 | Ball Room New York</small
+                >
+                <p class="mb-1 text-muted small">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Mauris tempus vestib ulum mauris.
+                </p>
+                <a href="#" class="text-danger fw-semibold small">Read More</a>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <img
+                src="/website_images/event-3.jpg"
+                alt="event"
+                class="me-3 rounded"
+                width="100"
+              />
+              <div>
+                <h6 class="fw-bold">Bring water to the childrens</h6>
+                <small class="text-muted"
+                  >Aug 25, 2018 | Ball Room New York</small
+                >
+                <p class="mb-1 text-muted small">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Mauris tempus vestib ulum mauris.
+                </p>
+                <a href="#" class="text-danger fw-semibold small">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="section-title">Featured Cause</h3>
+            <div class="section-underline mb-4"></div>
+
+            <div class="p-4 rounded bg-light">
+              <img
+                src="/website_images/featured-causes.jpg"
+                class="img-fluid mb-3 rounded"
+                alt="cause"
+              />
+
+              <h6 class="fw-bold">Fundraiser for Kids</h6>
+              <small class="text-muted"
+                >Aug 25, 2018 | Ball Room New York</small
+              >
+              <p class="mt-2 text-muted small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                tempus vestib ulum mauris.
+              </p>
+
+              <a href="#" class="btn btn-danger mb-3 px-4 py-2 rounded-pill"
+                >Donate Now</a
+              >
+
+              <div class="progress-container position-relative">
+                <div class="progress" style="height: 6px">
+                  <div
+                    class="progress-bar bg-danger"
+                    style="width: 83%"
+                    role="progressbar"
+                    aria-valuenow="83"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="progress-badge">83%</div>
+              </div>
+
+              <div class="d-flex justify-content-between mt-2 small text-muted">
+                <span>Raised: $56 880</span>
+                <span>Goal: $70 000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------Our Causes Section ---------------->
+    <section class="py-5 causes-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h3 class="section-title">Our Causes</h3>
+          <div class="section-underline mx-auto"></div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="cause-card bg-white p-3 rounded shadow-sm">
+              <img
+                src="/website_images/cause-1.jpg"
+                alt="cause1"
+                class="img-fluid rounded mb-3"
+              />
+              <h6 class="fw-bold">Bring water to the childrens</h6>
+              <p class="small text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                tempus vestib ulum mauris.
+              </p>
+
+              <div class="progress-container position-relative">
+                <div class="progress" style="height: 6px">
+                  <div class="progress-bar bg-danger" style="width: 83%"></div>
+                </div>
+                <div class="progress-badge">83%</div>
+              </div>
+
+              <div class="d-flex justify-content-between small text-muted mt-2">
+                <span>Raised: $56 880</span>
+                <span>Goal: $70 000</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="cause-card bg-white p-3 rounded shadow-sm">
+              <img
+                src="/website_images/cause-2.jpg"
+                alt="cause2"
+                class="img-fluid rounded mb-3"
+              />
+              <h6 class="fw-bold">Education for all</h6>
+              <p class="small text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                tempus vestib ulum mauris.
+              </p>
+
+              <div class="progress-container position-relative">
+                <div class="progress" style="height: 6px">
+                  <div class="progress-bar bg-danger" style="width: 70%"></div>
+                </div>
+                <div class="progress-badge">70%</div>
+              </div>
+
+              <div class="d-flex justify-content-between small text-muted mt-2">
+                <span>Raised: $56 880</span>
+                <span>Goal: $70 000</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="cause-card bg-white p-3 rounded shadow-sm">
+              <img
+                src="/website_images/cause-3.jpg"
+                alt="cause3"
+                class="img-fluid rounded mb-3"
+              />
+              <h6 class="fw-bold">Bring water to the childrens</h6>
+              <p class="small text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                tempus vestib ulum mauris.
+              </p>
+
+              <div class="progress-container position-relative">
+                <div class="progress" style="height: 6px">
+                  <div class="progress-bar bg-danger" style="width: 83%"></div>
+                </div>
+                <div class="progress-badge">83%</div>
+              </div>
+
+              <div class="d-flex justify-content-between small text-muted mt-2">
+                <span>Raised: $56 880</span>
+                <span>Goal: $70 000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------ Counter Section -------------->
+    <section class="py-5 counter-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <h2 class="display-6 fw-bold">
+              We love to help all the children that have problems in the world.
+              After 15 years we have many goals achieved.
+            </h2>
+            <div class="section-underline mt-3 mb-4"></div>
+            <p class="text-muted">
+              Dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib
+              ulum mauris quis aliquam. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row text-center">
+              <div class="col-md-4 col-12 mb-4">
+                <img
+                  src="/website_images/teamwork.png"
+                  width="70"
+                  alt="icon"
+                  class="mb-2"
+                />
+                <h3 class="fw-bold">120<span class="fs-5">K</span></h3>
+                <p class="small text-muted">Children helped</p>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                <img
+                  src="/website_images/donation.png"
+                  width="70"
+                  alt="icon"
+                  class="mb-2"
+                />
+                <h3 class="fw-bold">79</h3>
+                <p class="small text-muted">Water wells</p>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                <img
+                  src="/website_images/dove.png"
+                  width="70"
+                  alt="icon"
+                  class="mb-2"
+                />
+                <h3 class="fw-bold">253</h3>
+                <p class="small text-muted">Volunteeres</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section position-relative text-white py-5">
+      <div class="footer-overlay"></div>
+      <div class="container position-relative">
+        <div class="row gy-5">
+          <div class="col-lg-3">
+            <h4 class="fw-bold">
+              <img
+                src="/website_images/foot-logo.png"
+                alt="Logo"
+                class="me-2"
+              />
+            </h4>
+            <p class="small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              tempus vestibulum mauris. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+
+          <div class="col-lg-3">
+            <h5 class="fw-bold mb-3">Useful Links</h5>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Become a Volunteer</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Donate</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Causes</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h5 class="fw-bold mb-3">Latest News</h5>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >A new cause to help</a
+                >
+                <div class="text-orange">March 12, 2018</div>
+              </li>
+              <li class="mt-3">
+                <a href="#" class="text-white text-decoration-none"
+                  >We love to help people</a
+                >
+                <div class="text-orange">March 12, 2018</div>
+              </li>
+              <li class="mt-3">
+                <a href="#" class="text-white text-decoration-none"
+                  >The new ideas for helping</a
+                >
+                <div class="text-orange">March 12, 2018</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h5 class="fw-bold mb-3">Contact</h5>
+            <ul class="list-unstyled small">
+              <li class="mb-2">+45 677 8993000 223</li>
+              <li class="mb-2">office@template.com</li>
+              <li class="mb-3">
+                Main St. no 45-46, b3, 56832, Los Angeles, CA
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                type="email"
+                class="form-control me-2"
+                placeholder="Your email"
+              />
+              <button type="submit" class="btn btn-orange px-3">Send</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="text-center mt-4 small">
+          ©2025 All rights reserved | This template is made with ❤️ by Colorlib
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
